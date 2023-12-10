@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydro Resonance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+    nav{
+     
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    padding: 5px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,.5);
+    overflow: hidden;
+    }
+    .icon {
+        font-size: 2.8rem;
+        color: white;
+        cursor: pointer;
+        display: none;
+    }
+    @media (max-width: 992px) {
+        .header {
+            padding: 1.3rem 5%;
+        }
+    }
+    @media (max-width: 768px) {
+        .icon {
+            display: block;
+       }
+
+       .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 17.7rem;
+        background-color: rgba(0,0,0,.5);
+
+       }
+       .navbar a {
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+       }
+    }
+    </style>
+</head>
+<body>
+    <header class="impact">
+        <video  autoplay loop muted plays-inline class="back-video">
+            <source src="genshin.mp4" type="video/mp4" >
+        </video>
+        <label for="" class="icons"></label>
+        <nav class="navbar">
+            <img src="hydro.png" class="logo">
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=jEp9yyhwZFE">Gameplay</a></li>
+                <li><a href="Chracters.html">Character</a></li>
+                <li><a href="Artifact.html">Artifact</a></li>
+            </ul>
+        </nav>
+        <div class="Content ">
+            <h1>Hydro Resonance</h1>
+
+            <a href="Explore.html">Explore Hydro Chracters</a>
+        </div>
+    </header>
+    
+</body>
+</html>
